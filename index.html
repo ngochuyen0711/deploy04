@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .header {
+            height: 100vh;
+            padding: 30px;
+            background: url(image/bg_header.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .header .banner{
+            text-align: center;
+            color: #fff;
+            padding: 100px 20px;
+        }
+        h1 {
+            font-size: 100px;
+        }
+        .header .banner .html {
+            color: orangered;
+            padding: 20px;
+        }
+        .header .banner .p{
+            font-size: 20px;
+            opacity: 0.7;
+        }
+     
+        button {
+            background: orangered;
+            text-transform: uppercase;
+            padding: 15px;
+            color: #fff;
+            margin: 20px;
+        }
+        .header .navbar {
+            background:orangered;
+            display: flex;
+        }
+        .header .navbar .logo{
+            width: 40%;
+            padding: 0px 40px;
+        }
+        .header .navbar .logo img{
+            width: 200px;}
+        .header .navbar .menu {
+            width: 60%;
+            padding: 20px 0px;
+        }
+        .header .navbar .menu ul{
+        display: flex; 
+        list-style: none; 
+        justify-content: space-around;
+        align-items: flex-end;
+       
+      }
+      .header .navbar .menu ul a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 15px;
+       
+      }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog/News</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+
+            </div>
+        </div>
+       
+        <div class="banner">
+            <div>
+                <h1> Think Big. <span class="html">We do.</span></h1>
+                <p class="p"> Capitalise on low hanging fruit to indentify a ballpark.</p>
+                <button> our portfolio
+                  <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
